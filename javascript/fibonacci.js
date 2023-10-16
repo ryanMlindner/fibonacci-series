@@ -5,8 +5,8 @@ function fibonacci(num) {
   for (let index = 0; index < num; index++) {
     if(index === 0) {indexPlusOne = 1}
     else {indexPlusOne = zeroIndex + indexMinusOne;}
-    console.log("sum: " + zeroIndex + "+" + indexMinusOne);
-    console.log("next:" + indexPlusOne);
+    // console.log("sum: " + zeroIndex + "+" + indexMinusOne);
+    // console.log("next:" + indexPlusOne);
     indexMinusOne = zeroIndex;
     zeroIndex = indexPlusOne;
   }
