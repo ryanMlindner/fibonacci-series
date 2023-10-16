@@ -1,5 +1,11 @@
 function fibonacci(num) {
   // type your code here
+  let increment = 1;
+  let start = 0;
+  for (let index = 0; index < num; index++) {
+
+  }
+  
 }
 
 if (require.main === module) {
@@ -21,4 +27,17 @@ if (require.main === module) {
 module.exports = fibonacci;
 
 // Please add your pseudocode to this file
+/**
+ * given an integer, find the zero-indexed number in the fibonacci series
+ * probably(again) some clever workaround to not have to make the whole series every time,
+ * but the easiest and simplest way is to generate the series every time
+ * much easier to break this code than the last one, given the growth factor of the series
+ * that aside,
+ * create the sequence up to the number given and return the value
+ * to make the fibonacci sequence:
+ * have an increment and a starting value
+ * sum them
+ * set the increment to the sum of the last two
+ * repeat up to the given number
+ */
 // And a written explanation of your solution
